@@ -1,0 +1,82 @@
+body{
+    font-family: "DM Serif Display";    
+}
+
+p{
+    color: #F9E897;
+}
+
+#top-container{
+    background: linear-gradient(to bottom, #124076, #7F9F80);
+}
+
+.title-text{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 200px);
+    gap: 10px;
+    height: 100vh;
+}
+
+.mountain{
+    grid-area: 4/2;
+
+}
+
+h1,h2{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    grid-area: 3 / 2;
+    font-size: 6rem;
+    color: #F9E897;
+}
+
+h2{
+    justify-content: end;
+    align-items: end;
+    color: #FFC374;
+    font-size: 5.1rem;
+    font-family: "Slackside One";
+}
+
+.perfil{
+    border-radius: 50%;
+    grid-area: 2/2;
+    border: 10px solid #7F9F80;
+}
+
+img{
+    align-self: center;
+    justify-self: center;
+}
+
+.tuercas{
+    grid-area: 1/3
+}
+
+.sol{
+    grid-area: 1/1;
+}
+
+.cloud1{
+    grid-area: 3/1;
+}
+
+.cloud2{
+    grid-area: 1/3;
+}
+
+#about-me{
+    background-color: beige;
+}
+
+.me{
+    font-size:2rem;
+    display: grid;
+    grid-template: repeat(3,200px) / repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+
